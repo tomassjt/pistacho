@@ -1,0 +1,27 @@
+ 
+<div>
+  <button mat-button [matMenuTriggerFor]="aboveMenu">Above</button>
+  <mat-menu #aboveMenu="matMenu" yPosition="above">
+
+  </mat-menu>
+ 
+  <button mat-button [matMenuTriggerFor]="belowMenu">Categorias</button>
+  <mat-menu #belowMenu="matMenu" yPosition="below">
+    <a href="#A">A</a>
+    <br />
+    <a href="#B">B</a>
+    <br />
+  </mat-menu>
+
+  <button mat-button [matMenuTriggerFor]="beforeMenu">Before</button>
+  <mat-menu #beforeMenu="matMenu" xPosition="before">
+
+  </mat-menu>
+
+
+  <button mat-button [matMenuTriggerFor]="afterMenu">After</button>
+  <mat-menu #afterMenu="matMenu" xPosition="after">
+
+  </mat-menu>
+
+</div>

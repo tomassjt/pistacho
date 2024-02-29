@@ -1,0 +1,25 @@
+.productoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  
+}
+.productoMarco {
+  background-color: orange;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  border-radius:5px;
+  margin:6px;
+}
+.productoItem {
+  background-color: red;
+  width: 160px;
+  height: 200px;
+  border-radius: 5px;
+  margin-bottom:5px;
+}
+
